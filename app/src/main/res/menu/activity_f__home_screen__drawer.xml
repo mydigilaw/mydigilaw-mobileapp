@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/aboutus"
+            android:icon="@drawable/about_us_icon"
+            android:title="About US" />
+        <item
+            android:id="@+id/signup"
+            android:icon="@drawable/q_signup_icon"
+            android:title="Signup" />
+        <item
+            android:id="@+id/testimonials"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Testimonials" />
+        <item
+            android:id="@+id/contactus"
+            android:icon="@drawable/testimonial_icon"
+            android:title="Conatct Us - Show Map" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share App" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Help" />
+        </menu>
+    </item>
+
+</menu>

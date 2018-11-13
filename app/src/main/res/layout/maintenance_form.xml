@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+
+    android:background="@drawable/animation_list"
+    >
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:fadingEdge="none"
+        android:fillViewport="true"
+        android:isScrollContainer="true"
+        android:scrollbars="none"
+        android:layout_alignParentLeft="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/animation_list">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="10dp"
+                android:gravity="center_horizontal"
+                android:padding="20dp"
+                android:text="MAINTENANCE"
+                android:textColor="#fff"
+                android:textSize="36sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/edt_name"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+
+                android:adjustViewBounds="true"
+                android:alpha="0.7"
+                android:background="@drawable/edittext"
+                android:hint="Name &amp; Age"
+                android:padding="10dp"
+                android:textColor="#fff"
+                android:textColorHint="#fff" />
+
+            <EditText
+                android:id="@+id/edt_occupation"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+
+                android:adjustViewBounds="true"
+                android:alpha="0.7"
+                android:background="@drawable/edittext"
+                android:hint="Occupation"
+                android:padding="10dp"
+                android:textColor="#fff"
+                android:textColorHint="#fff" />
+
+            <EditText
+                android:id="@+id/edt_present_address"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+
+                android:adjustViewBounds="true"
+                android:alpha="0.7"
+                android:background="@drawable/edittext"
+                android:hint="Present Address"
+                android:padding="10dp"
+                android:textColor="#fff"
+                android:textColorHint="#fff" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/et_husbandnameoccupationf"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+
+                    android:adjustViewBounds="true"
+                    android:alpha="0.7"
+                    android:background="@drawable/edittext"
+                    android:hint="Contact No"
+                    android:padding="10dp"
+                    android:textColor="#fff"
+                    android:textColorHint="#fff" />
+
+                <EditText
+                    android:id="@+id/et_husbandsalarsy"
+                    android:layout_width="270dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+
+                    android:adjustViewBounds="true"
+                    android:alpha="0.7"
+                    android:background="@drawable/edittext"
+                    android:hint="E-Mail id"
+                    android:padding="10dp"
+                    android:textColor="#fff"
+                    android:textColorHint="#fff" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+                <EditText
+                    android:id="@+id/et_husbandnameoccupation"
+                    android:layout_width="280dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+
+                    android:adjustViewBounds="true"
+                    android:alpha="0.7"
+                    android:background="@drawable/edittext"
+                    android:hint="Husband Name"
+                    android:padding="10dp"
+                    android:textColor="#fff"
+                    android:textColorHint="#fff" />
+                <EditText
+                    android:id="@+id/et_husbandsaldary"
+                    android:layout_width="90dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+
+                    android:adjustViewBounds="true"
+                    android:alpha="0.7"
+                    android:background="@drawable/edittext"
+                    android:hint="Age"
+                    android:padding="10dp"
+                    android:textColor="#fff"
+                    android:textColorHint="#fff" />
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/et_dateofmarriage"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+
+                android:adjustViewBounds="true"
+                android:alpha="0.7"
+                android:background="@drawable/edittext"
+                android:hint="Husband Occupation"
+                android:padding="10dp"
+                android:textColor="#fff"
+                android:textColorHint="#fff" />
+
+
+            <EditText
+                android:id="@+id/et_noofchildren"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+
+                android:adjustViewBounds="true"
+                android:alpha="0.7"
+                android:background="@drawable/edittext"
+                android:hint="Husband’s approximate monthly salary "
+                android:padding="10dp"
+                android:textColor="#fff"
+                android:textColorHint="#fff" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/et_husbandnameoccupadtion"
+                    android:layout_width="170dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+
+                    android:adjustViewBounds="true"
+                    android:alpha="0.7"
+                    android:background="@drawable/edittext"
+                    android:hint="Date of marriage"
+                    android:padding="10dp"
+                    android:textColor="#fff"
+                    android:textColorHint="#fff" />
+
+                <EditText
+                    android:id="@+id/et_husbandsalary"
+                    android:layout_width="200dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+
+                    android:adjustViewBounds="true"
+                    android:alpha="0.7"
+                    android:background="@drawable/edittext"
+                    android:hint="No. of Children, if any "
+                    android:padding="10dp"
+                    android:textColor="#fff"
+                    android:textColorHint="#fff" />
+            </LinearLayout>
+
+
+            <EditText
+                android:id="@+id/et_custodyofchildrean"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+
+                android:adjustViewBounds="true"
+                android:alpha="0.7"
+                android:background="@drawable/edittext"
+                android:hint="Custody of children"
+                android:padding="10dp"
+                android:textColor="#fff"
+                android:textColorHint="#fff" />
+
+            <EditText
+                android:id="@+id/et_dateofseperation"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+
+                android:adjustViewBounds="true"
+                android:alpha="0.7"
+                android:background="@drawable/edittext"
+                android:hint="Date of separation, if any"
+                android:padding="10dp"
+                android:textColor="#fff"
+                android:textColorHint="#fff" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/et_husbandnameoccupdation"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+
+                    android:adjustViewBounds="true"
+                    android:alpha="0.7"
+                    android:background="@drawable/edittext"
+                    android:hint="Any maintenance order earlier [ y/n ] "
+                    android:padding="10dp"
+                    android:textColor="#fff"
+                    android:textColorHint="#fff" />
+
+
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/et_estimatedmaintenance"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+
+                android:adjustViewBounds="true"
+                android:alpha="0.7"
+                android:background="@drawable/edittext"
+                android:hint="Estimated Maintenance Required "
+                android:padding="10dp"
+                android:textColor="#fff"
+                android:textColorHint="#fff" />
+
+            <EditText
+                android:id="@+id/et_maintenanceorderearlier"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+
+                android:adjustViewBounds="true"
+                android:alpha="0.7"
+                android:background="@drawable/edittext"
+                android:hint="Occupation/Present working status"
+                android:padding="10dp"
+                android:textColor="#fff"
+                android:textColorHint="#fff" />
+
+            <EditText
+                android:id="@+id/et_additionalinformation"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+
+                android:adjustViewBounds="true"
+                android:alpha="0.7"
+                android:background="@drawable/edittext"
+                android:hint="Additional Information , if any"
+                android:padding="10dp"
+                android:textColor="#fff"
+                android:textColorHint="#fff" />
+
+            <Button
+                android:id="@+id/attachments"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="250dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+
+                android:background="@drawable/button"
+                android:text="Attachments"
+                android:textColor="#000" />
+            <Button
+                android:id="@+id/btnLogin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+
+                android:background="@drawable/button"
+                android:text="Sign Up"
+                android:textColor="#000" />
+
+        </LinearLayout>
+
+
+
+    </ScrollView>
+
+</RelativeLayout>

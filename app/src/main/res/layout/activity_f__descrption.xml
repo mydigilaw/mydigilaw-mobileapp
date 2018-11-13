@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/relativeLayout"
+    android:background="@drawable/animation_list">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+      >
+
+        <TextView
+            android:id="@+id/tvheading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginTop="60dp"
+            android:gravity="center_horizontal"
+            android:textSize="30sp"
+            android:text="Maintenance Law"
+            android:textColor="#fff"/>
+    </LinearLayout>
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginRight="20dp"
+        android:background="@android:color/white"
+        android:fadeScrollbars="true"
+        android:scrollbarAlwaysDrawVerticalTrack="true"
+        android:scrollbarFadeDuration="20000"
+
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+
+            android:layout_marginRight="20dp"
+            android:background="@android:color/white"
+            android:orientation="vertical"
+
+            >
+
+            <TextView
+                android:id="@+id/tvdesc"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:layout_marginTop="10dp"
+                android:drawablePadding="10dp"
+                android:gravity="center"
+                android:paddingLeft="10dp"
+                android:paddingTop="10dp"
+                android:paddingRight="10dp"
+                android:text="@string/maintenance_desc"
+                android:textColor="#808080"
+                android:textSize="30dp" />
+
+           <!-- <TextView
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="40dp"
+
+                android:drawableRight="@drawable/g_next_icon"
+               android:imeOptions="actionNext"
+
+                android:text="Raise Your Complaint"
+                android:textColor="#808080"
+                android:textSize="20dp" />-->
+
+            <TextView
+                android:id="@+id/tvraise"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="60dp"
+                android:drawableRight="@drawable/g_next_icon"
+                android:drawablePadding="10dp"
+
+                android:paddingTop="10dp"
+                android:paddingRight="10dp"
+                android:textColor="#ff69b4"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:text="Raise Your Complaint" />
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+
+</FrameLayout>

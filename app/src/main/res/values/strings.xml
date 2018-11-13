@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Mydigilaw-Beta</string>
+
+    <!-- <string name="aboutus">"At CLA, we assure our clients of quality legal services through prompt, apt and timely action so as to provide best relief in a cost effective manner.
+         We believe that law has to be constructively administered for achieving optimum results in the shortest possible span of time. We at CLA believe firmly that Legal Engineering can alone help us achieve this for our esteemed clients.
+         We firmly believe that the smile of a satisfied client is most precious recognition for the services rendered to him by CLA and each one of us at CLA will continue to strive for more and more such precious recognition, day after day.
+
+ We are therefore proud to be called Engineers of Law.</string>-->
+
+
+    <string name="aboutus">"At CLA, we assure our clients of quality legal services through prompt, apt and timely action so as to provide best relief in a cost effective manner.We believe that law has to be constructively administered for achieving optimum results in the shortest possible span of time. We at CLA believe firmly that Legal Engineering can alone help us achieve this for our esteemed clients.We firmly believe that the smile of a satisfied client is most precious recognition for the services rendered to him by CLA and each one of us at CLA will continue to strive for more and more such precious recognition, day after day.
+We are therefore proud to be called Engineers of Law</string>
+    <string name="testi">
+"MYDIGILAW/CLA Is A Unique Solution Provider For Any Nature Of Issues. It Is A Practical Guide To Resolve Any Disputes/Differences Of Either Personal/Official/Industrial With Their User-Friendly Understanding Of The Issue And Have Most Dedicated Expertise In Delivering The Best Results. "
+
+I Am Very Fortunate To Be Associated With MYDIGILAW/CLA And I Wish Great Grand Success In All Their Endeavours".
+
+
+
+
+    </string>
+
+
+    <string name="maintenance_desc">Under this Law, Wife/Husband can get financial support from their respective spouse during the period of legal separation/divorce</string>
+    <string name="t_name">J SRINIVASARAGHAVAN</string>
+    <string name="position">GENERAL MANAGER</string>
+    <string name="c_name">JANSONS INDUSTRIES LTD/</string>
+    <string name="g_company"></string>
+    <string name="title_activity_home__personal__law">Home_Personal_Law</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">MyDigiLaw</string>
+    <string name="nav_header_subtitle">mydigilaw@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_f__home_screen_">MyDigiLaw</string>
+
+
+    <string name="facebook_app_id">252283702084141</string>
+    <string name="fb_login_protocol_scheme">fb252283702084141</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>

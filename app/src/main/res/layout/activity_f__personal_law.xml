@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/animation_list">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/personallaw_bg">
+
+    </LinearLayout>
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginRight="20dp"
+        android:fadeScrollbars="true"
+        android:scrollbarAlwaysDrawVerticalTrack="true"
+        android:scrollbarFadeDuration="20000"
+        android:background="@android:color/white"
+
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+
+            android:layout_marginRight="20dp"
+            android:background="@android:color/white"
+            android:orientation="vertical"
+
+            >
+
+            <TextView
+                android:id="@+id/tv_maintanence_law"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginTop="10dp"
+                android:drawableLeft="@drawable/maintenancelaw"
+                android:drawableRight="@drawable/g_next_icon"
+                android:drawablePadding="10dp"
+                android:paddingLeft="10dp"
+                android:paddingTop="10dp"
+
+                android:paddingRight="10dp"
+                android:text="Maintenance Law"
+                android:textColor="#808080"
+                android:textSize="17dp" />
+
+            <View
+                android:layout_width="300dp"
+                android:layout_height="1dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="15dp"
+                android:background="#D3D3D3">
+
+            </View>
+
+            <TextView
+                android:id="@+id/tv_divorce_law"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginTop="10dp"
+                android:drawableLeft="@drawable/divorcelaw"
+                android:drawableRight="@drawable/g_next_icon"
+                android:drawablePadding="10dp"
+                android:paddingLeft="10dp"
+                android:paddingTop="10dp"
+
+                android:paddingRight="10dp"
+                android:text="Divorce Law"
+                android:textColor="#808080"
+                android:textSize="17dp" />
+
+            <View
+                android:layout_width="300dp"
+                android:layout_height="1dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="15dp"
+                android:background="#D3D3D3">
+
+            </View>
+
+            <TextView
+                android:id="@+id/tv_property_law"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginTop="10dp"
+                android:drawableLeft="@drawable/propertylaw"
+                android:drawableRight="@drawable/g_next_icon"
+                android:drawablePadding="10dp"
+                android:paddingLeft="10dp"
+                android:paddingTop="10dp"
+
+                android:paddingRight="10dp"
+                android:text="Property Law"
+                android:textColor="#808080"
+                android:textSize="17dp" />
+
+            <View
+                android:layout_width="300dp"
+                android:layout_height="1dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="15dp"
+                android:background="#D3D3D3">
+
+            </View>
+
+            <TextView
+                android:id="@+id/tv_disputes_law"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginTop="10dp"
+                android:drawableLeft="@drawable/disputeslaw"
+                android:drawableRight="@drawable/g_next_icon"
+                android:drawablePadding="10dp"
+                android:paddingLeft="10dp"
+                android:paddingTop="10dp"
+
+                android:paddingRight="10dp"
+                android:text="Disputes /Offences"
+                android:textColor="#808080"
+                android:textSize="17dp" />
+
+            <View
+                android:layout_width="300dp"
+                android:layout_height="1dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="15dp"
+                android:background="#D3D3D3">
+
+            </View>
+
+            <TextView
+                android:id="@+id/tv_personal_law"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginTop="10dp"
+                android:drawableLeft="@drawable/personalbanking"
+                android:drawableRight="@drawable/g_next_icon"
+                android:drawablePadding="10dp"
+                android:paddingLeft="10dp"
+                android:paddingTop="10dp"
+
+                android:paddingRight="10dp"
+                android:text="Personal banking"
+                android:textColor="#808080"
+                android:textSize="17dp" />
+
+            <View
+                android:layout_width="300dp"
+                android:layout_height="1dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="15dp"
+                android:background="#D3D3D3">
+
+            </View>
+
+            <TextView
+                android:id="@+id/tv_online_law"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginTop="10dp"
+                android:drawableLeft="@drawable/onlinecrime"
+                android:drawableRight="@drawable/g_next_icon"
+                android:drawablePadding="10dp"
+                android:paddingLeft="10dp"
+                android:paddingTop="10dp"
+
+                android:paddingRight="10dp"
+                android:text="	Online Crime"
+                android:textColor="#808080"
+                android:textSize="17dp" />
+
+            <View
+                android:layout_width="300dp"
+                android:layout_height="1dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="15dp"
+                android:background="#D3D3D3">
+
+            </View>
+
+            <TextView
+                android:id="@+id/tv_passport_law"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginTop="10dp"
+                android:drawableLeft="@drawable/immigration"
+                android:drawableRight="@drawable/g_next_icon"
+                android:drawablePadding="10dp"
+                android:paddingLeft="10dp"
+                android:paddingTop="10dp"
+
+                android:paddingRight="10dp"
+                android:text="Passport/Immigration"
+                android:textColor="#808080"
+                android:textSize="17dp" />
+
+            <View
+                android:layout_width="300dp"
+                android:layout_height="1dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="15dp"
+                android:background="#D3D3D3">
+
+            </View>
+
+            <TextView
+                android:id="@+id/tv_councelling_law"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginTop="10dp"
+                android:drawableLeft="@drawable/councelling"
+                android:drawableRight="@drawable/g_next_icon"
+                android:drawablePadding="10dp"
+                android:paddingLeft="10dp"
+                android:paddingTop="10dp"
+
+                android:paddingRight="10dp"
+                android:text="Counselling "
+                android:textColor="#808080"
+                android:textSize="17dp" />
+
+            <View
+                android:layout_width="300dp"
+                android:layout_height="1dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="15dp"
+                android:background="#D3D3D3">
+
+            </View>
+
+
+
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</FrameLayout>
